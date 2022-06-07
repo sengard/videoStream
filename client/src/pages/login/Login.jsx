@@ -12,7 +12,7 @@ function Login() {
                 <input className="email" type="email" placeholder="Enter Email"></input>
                 <input className="password" type="password" placeholder="Enter Password"></input>
                 <button className="sinInButton">Sign In</button>
-                <span>New to Netflix? <b>Sign up Now!</b></span>
+                <span>New to AlOo? <b>Sign up Now!</b></span>
                 <small>
                     This Page is protected by Google reCAPTCHA to ensure you`re not a bot.<b>Learn More.</b>
                 </small>
