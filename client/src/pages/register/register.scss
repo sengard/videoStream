@@ -13,12 +13,12 @@
             justify-content: space-between;
     
             .logo{
-                height: 60px;
+                height: 40px;
                 margin-left: 20px;
             }
     
             .loginButton{
-                background-color: red;
+                background-color: #FF8A00;
                 border-top: none;
                 color: white;
                 border-radius: 5px;
@@ -70,7 +70,7 @@
             .registerButton{
                 flex: 3;
                 height: 100%;
-                background-color: red;
+                background-color: #FF8A00;
                 color: white;
                 border: none;
                 font-size: 18px;

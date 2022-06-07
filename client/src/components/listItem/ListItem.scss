@@ -24,7 +24,7 @@
 
     &:hover{
         width: 325px;
-        height: 300px;
+        height: 380px;
         position: absolute;
         top: -150px;
         -webkit-box-shadow: 0px 1px 8px 0px rgba(255,255,255,0.61); 
@@ -36,15 +36,16 @@
         }
 
         .itemInfo{
+            margin-top: 10px;
             display: flex;
             flex-direction: column;
             padding: 8px;
 
             .icons{
                 display: flex;
-                margin-bottom: 10px;
+                margin-bottom: 20px;
                 .icon{
-                    border: 2px solid white; 
+                    border: 2px solid #FF8A00; 
                     padding: 5px;
                     border-radius: 50%;
                     margin-right: 6px;
@@ -55,7 +56,7 @@
             .itemInfoTop{
                 display: flex;
                 align-items: center;
-                margin-bottom: 10px;
+                margin-bottom: 25px;
                 font-size: 14px;
                 font-weight: 600;
                 color: gray;
@@ -75,7 +76,7 @@
 
             .genre{
                 font-size: 14px;
-                color: lightgray;
+                color: #FF8A00;
             }
 
         }

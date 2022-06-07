@@ -5,7 +5,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 function ListItem({index, item}) {
-  const trailer = "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761";
+  const trailer = "https://firebasestorage.googleapis.com/v0/b/printful-afe3c.appspot.com/o/THE%20IMITATION%20GAME%20-%20Official%20UK%20Trailer%20-%20Starring%20Benedict%20Cumberbatch.mp4?alt=media&token=75da37a6-55a8-474a-b7ec-9576bc506ea8";
   const [isHovered, setIsHovered] = useState(false);
   const [movie, setMovie] = useState({});
 
@@ -31,7 +31,7 @@ function ListItem({index, item}) {
         <div className="listItem" 
       onMouseEnter={()=>setIsHovered(true)} 
       onMouseLeave={()=>setIsHovered(false)} 
-      style={{left:isHovered && index*225+index*3}}>
+      style={{left:isHovered && index*155+index*3}}>
       <img src={movie?.img} >
 
       </img>

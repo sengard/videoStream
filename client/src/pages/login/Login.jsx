@@ -4,7 +4,7 @@ function Login() {
   return (
     <div className="login">
         <div className="top">
-            <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png"></img>
+            <img className="logo" src="https://firebasestorage.googleapis.com/v0/b/printful-afe3c.appspot.com/o/AlOo.png?alt=media&token=2f025dac-3077-4a43-8f92-9dfbc2c0e416"></img>
         </div>
         <div className="container">
             <form>

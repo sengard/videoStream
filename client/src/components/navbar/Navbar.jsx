@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className={isScrolled ? "navbar scrolled":"navbar"}>
         <div className="container">
             <div className="left">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Vanamo_Logo.png"></img>
+                <img src="https://firebasestorage.googleapis.com/v0/b/printful-afe3c.appspot.com/o/AlOo%20(1).png?alt=media&token=3351db5e-8698-453e-9af6-46b30b4defa6"></img>
                 <Link to="/" className="link">
                 <span>HomePage</span>
                 </Link>

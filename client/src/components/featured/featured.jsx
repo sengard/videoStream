@@ -1,4 +1,5 @@
 import { InfoOutlined, PlayArrow } from "@material-ui/icons"
+import { Link } from "react-router-dom";
 import "./featured.scss"
 
 function featured({type}) {
@@ -31,12 +32,12 @@ function featured({type}) {
 
             </img>
             <span className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore voluptatum dolorem impedit obcaecati repudiandae, rem ullam suscipit ipsam iusto eius nisi temporibus aliquam atque tempore quam facilis quaerat dignissimos! Dolor commodi sit deserunt autem culpa ipsa tenetur.
+            Nick Fury is compelled to launch the Avengers Initiative when Loki poses a threat to planet Earth. His squad of superheroes put their minds together to accomplish the task.
             </span>
             <div className="buttons">
                 <button className="play">
                     <PlayArrow/>
-                    <span>Play</span>
+                    <Link to="/watch"><span>Play</span></Link>
                 </button>
                 <button className="more">
                     <InfoOutlined/>
